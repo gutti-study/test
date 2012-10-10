@@ -21,6 +21,11 @@
 		C11A3A1A15D7A1F700ABB873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A39F815D7A1F600ABB873 /* Foundation.framework */; };
 		C11A3A2215D7A1F700ABB873 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C11A3A2015D7A1F700ABB873 /* InfoPlist.strings */; };
 		C11A3A2515D7A1F700ABB873 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C11A3A2415D7A1F700ABB873 /* testTests.m */; };
+		C11A3A2F15D7A32400ABB873 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A3A2E15D7A32400ABB873 /* CoreLocation.framework */; };
+		C11A3A3115D7A33400ABB873 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A3A3015D7A33400ABB873 /* MapKit.framework */; };
+		C1C9745E15F493EF0022BB1B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C9745D15F493EF0022BB1B /* FirstViewController.m */; };
+		C1C9746215F4940F0022BB1B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C9746115F4940F0022BB1B /* SecondViewController.m */; };
+		C1DFDFCC160EA2C7003B3982 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DFDFCB160EA2C7003B3982 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,13 @@
 		C11A3A2115D7A1F700ABB873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C11A3A2315D7A1F700ABB873 /* testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTests.h; sourceTree = "<group>"; };
 		C11A3A2415D7A1F700ABB873 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		C11A3A2E15D7A32400ABB873 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C11A3A3015D7A33400ABB873 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C1C9745C15F493EF0022BB1B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C1C9745D15F493EF0022BB1B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C1C9746015F4940F0022BB1B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C1C9746115F4940F0022BB1B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C1DFDFCB160EA2C7003B3982 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11A3A3115D7A33400ABB873 /* MapKit.framework in Frameworks */,
+				C11A3A2F15D7A32400ABB873 /* CoreLocation.framework in Frameworks */,
 				C11A39F715D7A1F600ABB873 /* UIKit.framework in Frameworks */,
 				C11A39F915D7A1F600ABB873 /* Foundation.framework in Frameworks */,
 				C11A39FB15D7A1F600ABB873 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +97,7 @@
 		C11A39E715D7A1F600ABB873 = {
 			isa = PBXGroup;
 			children = (
+				C1DFDFCB160EA2C7003B3982 /* Default-568h@2x.png */,
 				C11A39FC15D7A1F600ABB873 /* test */,
 				C11A3A1D15D7A1F700ABB873 /* testTests */,
 				C11A39F515D7A1F600ABB873 /* Frameworks */,
@@ -102,6 +117,8 @@
 		C11A39F515D7A1F600ABB873 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C11A3A3015D7A33400ABB873 /* MapKit.framework */,
+				C11A3A2E15D7A32400ABB873 /* CoreLocation.framework */,
 				C11A39F615D7A1F600ABB873 /* UIKit.framework */,
 				C11A39F815D7A1F600ABB873 /* Foundation.framework */,
 				C11A39FA15D7A1F600ABB873 /* CoreGraphics.framework */,
@@ -119,6 +136,10 @@
 				C11A3A0B15D7A1F600ABB873 /* MainStoryboard_iPad.storyboard */,
 				C11A3A0E15D7A1F600ABB873 /* ViewController.h */,
 				C11A3A0F15D7A1F600ABB873 /* ViewController.m */,
+				C1C9745C15F493EF0022BB1B /* FirstViewController.h */,
+				C1C9745D15F493EF0022BB1B /* FirstViewController.m */,
+				C1C9746015F4940F0022BB1B /* SecondViewController.h */,
+				C1C9746115F4940F0022BB1B /* SecondViewController.m */,
 				C11A39FD15D7A1F600ABB873 /* Supporting Files */,
 			);
 			path = test;
@@ -228,6 +249,7 @@
 				C11A3A0115D7A1F600ABB873 /* InfoPlist.strings in Resources */,
 				C11A3A0A15D7A1F600ABB873 /* MainStoryboard_iPhone.storyboard in Resources */,
 				C11A3A0D15D7A1F600ABB873 /* MainStoryboard_iPad.storyboard in Resources */,
+				C1DFDFCC160EA2C7003B3982 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +287,8 @@
 				C11A3A0315D7A1F600ABB873 /* main.m in Sources */,
 				C11A3A0715D7A1F600ABB873 /* AppDelegate.m in Sources */,
 				C11A3A1015D7A1F600ABB873 /* ViewController.m in Sources */,
+				C1C9745E15F493EF0022BB1B /* FirstViewController.m in Sources */,
+				C1C9746215F4940F0022BB1B /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +404,7 @@
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,6 +416,7 @@
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -448,6 +474,7 @@
 				C11A3A2A15D7A1F700ABB873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11A3A2B15D7A1F700ABB873 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +483,7 @@
 				C11A3A2D15D7A1F700ABB873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

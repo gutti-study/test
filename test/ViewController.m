@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize labelTop;
 
 - (void)viewDidLoad
 {
@@ -22,6 +23,7 @@
 
 - (void)viewDidUnload
 {
+    [self setLabelTop:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -35,4 +37,8 @@
     }
 }
 
+- (IBAction)buttonTest:(id)sender {
+    self.labelTop.textColor = [UIColor redColor];
+    self.labelTop.text = @"hoge";
+}
 @end
